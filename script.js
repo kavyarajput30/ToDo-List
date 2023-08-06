@@ -6,11 +6,6 @@ addbtn.addEventListener("click", ()=>{
     let newtask=document.createElement("li");
     newtask.innerText=inp.value;
 
-    let checkbx = document.createElement("input");
-    checkbx.type="checkbox";
-    checkbx.classList.add("chkbx");
-    newtask.prepend(checkbx);
-
     let delbtn = document.createElement("button");
     delbtn.innerText="Delete";
     delbtn.classList.add("delete");
