@@ -5,13 +5,14 @@
 }
 body{
        background-color: #91C8E4;
+    font-size:2.4vh;
 }
 .second-div{
     background-color: #F6F4EB;
         border-radius: 15px;
     box-shadow: 1px 1px 15px rgb(185, 185, 185);
-    width: 25%;
-    height: 70vh;
+    width: 20%;
+    height: 60vh;
     padding: 1vw;
 }
 .third-div{
@@ -24,19 +25,30 @@ body{
     align-items: center;
     justify-content: center;
 }
+h1{
+    letter-spacing:6px;
+    text-shadow:1px 1px 2px rgb(92 ,91, 91);
+    font-size: 10vh;
+}
 .texttype{
-  padding: 1.5px;
+  padding: 0.2vw;
   margin: 15px 0 15px 0;
   width: 70%;
   text-align: center;
+  font-size: 2.4vh;  
 }
 button{
-    padding: 1.4px 5px;
+    padding: 0.2vw 0.6vw;
+    font-size:2.4vh;
 }
 
 ul button{
     margin: 2px 12px;
-    padding: 1px 5px;
+    padding: 0.2vw 0.6vw;
+    font-size:2.6vh;
+}
+li{
+    font-size: 3.5vh;
 }
 .chkbx{
   margin-right: 12px;
