@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Just Another Hand', cursive;
+}
+body{
+       background-color: #91C8E4;
+       font-size: 2.4vh;
+       
+}
+.second-div{
+    background-color: #F6F4EB;
+    border-radius: 15px;
+    box-shadow: 1px 1px 15px rgb(185, 185, 185);
+    width: 20%;
+    height: 60vh;
+    padding: 1vw;
+}
+.third-div{
+    text-align: center;
+}
+.main-div{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    letter-spacing: 6px;
+    text-shadow: 1px 1px 2px rgb(92, 91, 91);
+    font-size: 10vh;
+}
+.texttype{
+  padding: 0.2vw;
+  margin: 15px 1px 15px 1px;
+  width: 70%;
+  text-align: center;
+  background-color: transparent;
+  font-size: 2.4vh;
+  border: 0;
+  outline: 0;
+  border-bottom: 2px solid rgb(2, 2, 47);
+  
+}
+button{
+    padding: 0.2vw 0.6vw;
+    font-size: 2.4vh;
+}
+
+
+ul button{
+    margin: 2px 12px;
+    padding: 0.2vw 0.6vw;
+    font-size: 2.6vh;
+}
+li{
+    font-size: 3.5vh;
+}
