@@ -18,9 +18,9 @@ addbtn.addEventListener("click", ()=>{
 
 //add click event on list bcz old event won't work for new elements(event delegation)
 list.addEventListener("click",(event)=>{
-       if(event.target.nodeName=="BUTTON"){        //access delete button
-      let parent=event.target.parentElement;        
-      parent.remove();
+       if(event.target.nodeName=="BUTTON"){        //access target element btn only
+      let parent=event.target.parentElement;        //access parent of delete button
+      parent.remove();                               // removing the list item
     }
 
 })
